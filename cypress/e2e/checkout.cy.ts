@@ -29,7 +29,7 @@ describe('Checkout',()=>{
         cy.get(productDetailsPage.buyNowButton).click()
         cy.get(loginPage.emailField).should('be.visible')
     })
-    it.only(`should present cart page when the user to "Go to Cart" button`,()=>{
+    it(`should present cart page when the user to "Go to Cart" button`,()=>{
         cy.get(searchPage.refinements).should('be.visible')
         cy.get(searchPage.sortByCombobox).should('be.visible')
         cy.get(searchPage.searchResultsQuantity).should('be.visible')
