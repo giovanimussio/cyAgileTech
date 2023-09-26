@@ -3,8 +3,8 @@
 This project was made to present the main flows in a e-commerce website.
 
 The main flows are:
-**Checkout process
-**Search and filter
+1. Checkout process
+2. Search and filter
 
 The checkout flow, is the main objective of any e-commerce. Because this flow should guarantee that the final user receives the product and the company receives the payment.
 
