@@ -9,12 +9,4 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Agile Tech - Amazon cypress Tests
-        uses: cypress-io/github-action@v2
-        with:
-          config-file: cypress.config.ts
-          record: true
-          parallel: true
-          group: "UI - Chrome"
-          install-command: yarn --immutable
-          browser: chrome
-          headless: true
+        uses: cypress-io/github-action@v4.1.0
