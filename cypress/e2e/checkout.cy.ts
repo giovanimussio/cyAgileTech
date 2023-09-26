@@ -1,7 +1,7 @@
 import { cartPage, checkout, header, loginPage, productCard, productDetailsPage, searchPage } from "../support/selectors"
 
 describe('Checkout',()=>{
-    const itemToBuy = 'PLAYSTATION 5'
+    const itemToBuy = 'FIFA 23 - PlayStation 5'
     beforeEach(()=>{
         cy.visit('www.amazon.com.br')
         cy.get(header.amazonLogo).should('exist')
@@ -40,6 +40,6 @@ describe('Checkout',()=>{
         cy.get(checkout.goToCart).click()
         cy.get(cartPage.cartItems).should('be.visible')
         cy.get(checkout.proceedToCheckoutButton).click()
-        cy.get(loginPage.phoneField).should('be.visible')
+        cy.get(loginPage.emailField).should('be.visible')
     })
 })

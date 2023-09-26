@@ -34,7 +34,7 @@ describe('Search',()=>{
             }
         })
     })
-    it(`filter works as expected`,()=>{
+    it(`filter by department works as expected`,()=>{
         let length:number=0
         let previousUrl='/'
         
