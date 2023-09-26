@@ -9,4 +9,4 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Agile Tech - Amazon cypress Tests
-        uses: cypress-io/github-action@v4.1.0
+        uses: cypress-io/github-action@v6.5.0
