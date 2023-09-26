@@ -40,6 +40,6 @@ describe('Checkout',()=>{
         cy.get(checkout.goToCart).click()
         cy.get(cartPage.cartItems).should('be.visible')
         cy.get(checkout.proceedToCheckoutButton).click()
-        cy.get(loginPage.phoneField).should('be.visible')
+        cy.get(loginPage.emailField).should('be.visible')
     })
 })
